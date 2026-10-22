@@ -3,8 +3,8 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "dev": "vitepress dev docs",
-    "build": "vitepress build docs",
+    "dev": "node init && vitepress dev docs",
+    "build": "node init && vitepress build docs",
     "preview": "vitepress preview docs"
   },
   "devDependencies": {
